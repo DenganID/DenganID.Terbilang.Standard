@@ -8,6 +8,7 @@ namespace WebApi.Controllers
     public class TerbilangController : ControllerBase
     {
         private readonly ITerbilang _terbilang;
+
         public TerbilangController(ITerbilang terbilang)
         {
             _terbilang = terbilang;
@@ -19,7 +20,7 @@ namespace WebApi.Controllers
             var hasil = _terbilang.From(number);
             return Ok(hasil);
         }
-        
+
         [HttpGet("withAsync/{number}")]
         public async Task<IActionResult> GetTerbilangAsync(long number)
         {

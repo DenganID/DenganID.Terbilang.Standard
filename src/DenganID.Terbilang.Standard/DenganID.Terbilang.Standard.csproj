@@ -8,6 +8,7 @@
         <Company>PT Dengan Ide Cipta Solusi</Company>
         <PackageDescription>Terbilang</PackageDescription>
         <RepositoryUrl>https://github.com/DenganID/DenganID.Terbilang.Standard</RepositoryUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/DenganID/DenganID.Terbilang.Standard/master/LICENSE.md</PackageLicenseUrl>
+        <PackageIconUrl>https://raw.githubusercontent.com/DenganID/DenganID.Terbilang.Standard/master/icon.png</PackageIconUrl>
     </PropertyGroup>
-
 </Project>

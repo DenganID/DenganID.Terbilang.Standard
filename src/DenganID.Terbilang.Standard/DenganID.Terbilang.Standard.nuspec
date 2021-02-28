@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+    <metadata>
+        <id>DenganID.Terbilang.Standard</id>
+        <title>DenganID.Terbilang.Standard</title>
+        <version>1.0.0</version>
+        <authors>DenganID</authors>
+        <repository>https://github.com/DenganID/DenganID.Terbilang.Standard</repository>
+        <description>Terbilang is for converting numeric into words in Bahasa Indonesia.</description>
+        <iconUrl>https://raw.githubusercontent.com/DenganID/DenganID.Terbilang.Standard/master/icon.png</iconUrl>
+        <licenseUrl>https://raw.githubusercontent.com/DenganID/DenganID.Terbilang.Standard/master/LICENSE.md</licenseUrl>
+        <copyright>Copyright 2021 PT Dengan Ide Cipta Solusi</copyright>
+        <tags>inwords terbilang inword bahasa indonesia</tags>
+        <summary>Terbilang is for converting numeric into words in Bahasa Indonesia.</summary>
+    </metadata>
+</package>
