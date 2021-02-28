@@ -6,6 +6,8 @@
         <Version>1.0.0</Version>
         <Authors>DenganID</Authors>
         <Company>PT Dengan Ide Cipta Solusi</Company>
+        <PackageDescription>Terbilang</PackageDescription>
+        <RepositoryUrl>https://github.com/DenganID/DenganID.Terbilang.Standard</RepositoryUrl>
     </PropertyGroup>
 
 </Project>

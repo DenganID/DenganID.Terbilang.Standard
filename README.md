@@ -1,5 +1,6 @@
 # Terbilang Standard
 [![.NET](https://github.com/DenganID/DenganID.Terbilang.Standard/actions/workflows/dotnet.yml/badge.svg)](https://github.com/DenganID/DenganID.Terbilang.Standard/actions/workflows/dotnet.yml)
+[![Unit Tests](https://github.com/DenganID/DenganID.Terbilang.Standard/actions/workflows/unittests.yml/badge.svg)](https://github.com/DenganID/DenganID.Terbilang.Standard/actions/workflows/unittests.yml)
 ## Synopsis
 Terbilang (netstandard2.0) is C# library for converting numeric into words in Bahasa.
 
