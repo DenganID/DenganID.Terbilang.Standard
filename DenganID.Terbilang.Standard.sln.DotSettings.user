@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6d209b54_002D7479_002D4165_002D82b3_002D4c84e4a98b55/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;TerbilangTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/apung/RiderProjects/DenganID.Terbilang.Standard/tests/TerbilangTests" Presentation="&amp;lt;tests&amp;gt;\&amp;lt;TerbilangTests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Dengan/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

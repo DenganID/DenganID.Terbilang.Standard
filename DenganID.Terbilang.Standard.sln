@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenganID.Terbilang.Standard", "src\DenganID.Terbilang.Standard\DenganID.Terbilang.Standard.csproj", "{69CC3B6B-7A04-4A76-BBB4-418ED6999214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerbilangTests", "tests\TerbilangTests\TerbilangTests.csproj", "{4959ABA3-1ABD-4180-A77A-6EBAC7F66B9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{A6768777-82AB-454B-B519-0E69743D7191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerbilangConsole", "examples\TerbilangConsole\TerbilangConsole.csproj", "{5C74FF3F-5715-4FD8-BACA-6D46A33FC988}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FA93DE3-28BC-474E-8368-728D6C02FE95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7CB74013-4CC8-448E-9BAA-4CA3028BFF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "examples\WebApi\WebApi.csproj", "{4BBD05C8-EB91-4B7D-BFFC-3D3736C30105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		
+		{69CC3B6B-7A04-4A76-BBB4-418ED6999214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CC3B6B-7A04-4A76-BBB4-418ED6999214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CC3B6B-7A04-4A76-BBB4-418ED6999214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CC3B6B-7A04-4A76-BBB4-418ED6999214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4959ABA3-1ABD-4180-A77A-6EBAC7F66B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4959ABA3-1ABD-4180-A77A-6EBAC7F66B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4959ABA3-1ABD-4180-A77A-6EBAC7F66B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4959ABA3-1ABD-4180-A77A-6EBAC7F66B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C74FF3F-5715-4FD8-BACA-6D46A33FC988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C74FF3F-5715-4FD8-BACA-6D46A33FC988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C74FF3F-5715-4FD8-BACA-6D46A33FC988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C74FF3F-5715-4FD8-BACA-6D46A33FC988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBD05C8-EB91-4B7D-BFFC-3D3736C30105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBD05C8-EB91-4B7D-BFFC-3D3736C30105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBD05C8-EB91-4B7D-BFFC-3D3736C30105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBD05C8-EB91-4B7D-BFFC-3D3736C30105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C74FF3F-5715-4FD8-BACA-6D46A33FC988} = {A6768777-82AB-454B-B519-0E69743D7191}
+		{69CC3B6B-7A04-4A76-BBB4-418ED6999214} = {5FA93DE3-28BC-474E-8368-728D6C02FE95}
+		{4959ABA3-1ABD-4180-A77A-6EBAC7F66B9F} = {7CB74013-4CC8-448E-9BAA-4CA3028BFF1E}
+		{4BBD05C8-EB91-4B7D-BFFC-3D3736C30105} = {A6768777-82AB-454B-B519-0E69743D7191}
+	EndGlobalSection
+EndGlobal
