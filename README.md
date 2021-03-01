@@ -1,4 +1,5 @@
 # Terbilang Standard
+[![NuGet version (DenganID.Terbilang.Standard)](https://img.shields.io/nuget/v/DenganID.Terbilang.Standard.svg?style=flat)](https://www.nuget.org/packages/DenganID.Terbilang.Standard/)
 [![.NET](https://github.com/DenganID/DenganID.Terbilang.Standard/actions/workflows/dotnet.yml/badge.svg)](https://github.com/DenganID/DenganID.Terbilang.Standard/actions/workflows/dotnet.yml)
 [![Unit Tests](https://github.com/DenganID/DenganID.Terbilang.Standard/actions/workflows/unittests.yml/badge.svg)](https://github.com/DenganID/DenganID.Terbilang.Standard/actions/workflows/unittests.yml)
 ## Synopsis
@@ -24,7 +25,9 @@ namespace TerbilangConsole
 
 ## Installation
 
+```
 dotnet add package DenganID.Terbilang.Standard
+```
 
 ## Contributors
 
