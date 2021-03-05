@@ -6,6 +6,8 @@
 Terbilang (netstandard2.0) is C# library for converting numeric into words in Bahasa.
 
 ## Code Example
+
+### Console App
 ```
 using System;
 using DenganID.Terbilang.Standard;
@@ -23,13 +25,53 @@ namespace TerbilangConsole
 }
 ```
 
-## Installation
+### Web App
+Startup.cs
 
+```
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddControllers();
+    services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "WebApi", Version = "v1"}); });
+
+    services.AddTransient<ITerbilang, Terbilang>();
+}
+```
+
+YourController.cs
+```
+private readonly ITerbilang _terbilang;
+
+public YourController(ITerbilang terbilang)
+{
+    _terbilang = terbilang;
+}
+
+
+[HttpGet("{number}")]
+public IActionResult YourMethod(long number)
+{
+    var hasil = _terbilang.From(number);
+    return Ok(hasil);
+}
+```
+## Installation
+### Package Manager
+```
+Install-Package DenganID.Terbilang.Standard -Version 1.0.0
+```
+
+### Dotnet CLI
 ```
 dotnet add package DenganID.Terbilang.Standard
 ```
 
+### PackageReference
+```
+<PackageReference Include="DenganID.Terbilang.Standard" Version="1.0.0" />
+```
 ## Contributors
+[List of contribution](https://github.com/DenganID/DenganID.Terbilang.Standard/graphs/contributors)
 
 You can always contribute to this package and create pull requests. Just give me a note
 
