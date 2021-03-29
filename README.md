@@ -78,3 +78,4 @@ You can always contribute to this package and create pull requests. Just give me
 ## License
 
 This package is released under the MIT License (MIT). Please read [LICENSE.md](https://github.com/DenganID/DenganID.Terbilang.Standard/LICENSE.md)
+
